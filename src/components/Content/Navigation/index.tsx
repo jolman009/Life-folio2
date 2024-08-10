@@ -126,7 +126,7 @@ export const NavigationList = () => {
           }`}
           onClick={() => setStart((val) => val + 1)}
         >
-          <img src={Arrow} />
+          <img src={Arrow} alt=" projectile object" />
         </Box>
       )}
     </NavigationWrapper>
