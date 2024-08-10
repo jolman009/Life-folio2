@@ -41,7 +41,7 @@ export const AboutMe = () => {
     <SectionWrapper>
       <TitleWrapper>About Me</TitleWrapper>
       <AboutMeContainer>
-        <img src={MyImage} />
+        <img src={MyImage} alt="about me dance" />
         <DetailsWrapper>
           <div>{aboutMeInfo.aboutMe}</div>
           <div className="actions">

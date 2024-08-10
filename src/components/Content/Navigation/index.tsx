@@ -102,7 +102,7 @@ export const NavigationList = () => {
           className={`arrow before ${start === 0 && "disabled"}`}
           onClick={() => setStart((val) => val - 1)}
         >
-          <img src={Arrow} />
+          <img src={Arrow} alt="projectile object" />
         </Box>
       )}
       {filteredSections.slice(start, start + limit).map((sec) => (
