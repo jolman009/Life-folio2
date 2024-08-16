@@ -1,5 +1,5 @@
 import { styled, Box } from "@mui/material";
-import MyImage from "../../../assets/pic.png";
+import myimage from "../../../assets/myra_cartoon01.png";
 import Resume from "../../../assets/resume.pdf";
 import {
   CustomButton,
@@ -41,13 +41,13 @@ export const AboutMe = () => {
     <SectionWrapper>
       <TitleWrapper>About Me</TitleWrapper>
       <AboutMeContainer>
-        <img src={MyImage} alt="about me dance" />
+        <img src={myimage} alt="about me dance" />
         <DetailsWrapper>
           <div>{aboutMeInfo.aboutMe}</div>
           <div className="actions">
             <CustomButton>
               <a href={Resume} rel="noreferrer" target="_blank">
-                View Resume
+                Class Syllabus
               </a>
             </CustomButton>
           </div>
